@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — Wanderlust Travel Agency</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/traval.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Wander<span>lust</span><span class="brand-dot"></span></a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link btn-nav" href="contact.html">Book a Trip</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero text-center">
+    <div class="container">
+      <p class="page-hero-breadcrumb"><a href="index.html">Home</a><span>›</span>Services</p>
+      <h1 class="page-hero-title">Our Services</h1>
+      <p style="color:rgba(255,255,255,0.65); max-width:500px; margin: 0.7rem auto 0; font-size:1rem;">Everything you need for the perfect trip — all in one place.</p>
+    </div>
+  </div>
+
+  <!-- SERVICES CARDS -->
+  <section>
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <span class="section-tag"><i class="fa-solid fa-briefcase me-1"></i>What We Offer</span>
+        <h2 class="section-title">Travel Solutions for Every Need</h2>
+        <p class="section-subtitle">From flights and hotels to full custom tours — our comprehensive services make every trip seamless and memorable.</p>
+      </div>
+      <div class="row g-4">
+
+        <!-- Flight Booking -->
+        <div class="col-md-6 col-lg-3 reveal">
+          <div class="service-card">
+            <div class="service-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&q=80" alt="Flight Booking" class="service-card-img">
+              <div class="service-card-icon-overlay"><i class="fa-solid fa-plane-departure"></i></div>
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-title">Flight Booking</div>
+              <p class="service-card-desc">Access 500+ airlines worldwide with guaranteed best fares, flexible change policies, and instant confirmation.</p>
+              <ul class="service-card-features">
+                <li><i class="fa-solid fa-circle-check"></i> Economy, Business & First Class</li>
+                <li><i class="fa-solid fa-circle-check"></i> Multi-city & Round-trip options</li>
+                <li><i class="fa-solid fa-circle-check"></i> Best price guarantee</li>
+                <li><i class="fa-solid fa-circle-check"></i> Free cancellation up to 48h</li>
+              </ul>
+              <a href="contact.html" class="btn-service">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hotel Reservation -->
+        <div class="col-md-6 col-lg-3 reveal" style="transition-delay:.1s">
+          <div class="service-card">
+            <div class="service-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=80" alt="Hotel Reservation" class="service-card-img">
+              <div class="service-card-icon-overlay"><i class="fa-solid fa-hotel"></i></div>
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-title">Hotel Reservations</div>
+              <p class="service-card-desc">Handpicked accommodations from budget-friendly stays to ultra-luxury resorts — all personally vetted by our team.</p>
+              <ul class="service-card-features">
+                <li><i class="fa-solid fa-circle-check"></i> 50,000+ vetted properties</li>
+                <li><i class="fa-solid fa-circle-check"></i> Exclusive member rates</li>
+                <li><i class="fa-solid fa-circle-check"></i> Free breakfast packages</li>
+                <li><i class="fa-solid fa-circle-check"></i> Late checkout negotiation</li>
+              </ul>
+              <a href="contact.html" class="btn-service">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Car Rentals -->
+        <div class="col-md-6 col-lg-3 reveal" style="transition-delay:.2s">
+          <div class="service-card">
+            <div class="service-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80" alt="Car Rentals" class="service-card-img">
+              <div class="service-card-icon-overlay"><i class="fa-solid fa-car"></i></div>
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-title">Car Rentals</div>
+              <p class="service-card-desc">Explore your destination your way with a premium fleet of vehicles — from economy compacts to luxury SUVs and convertibles.</p>
+              <ul class="service-card-features">
+                <li><i class="fa-solid fa-circle-check"></i> 300+ locations worldwide</li>
+                <li><i class="fa-solid fa-circle-check"></i> GPS navigation included</li>
+                <li><i class="fa-solid fa-circle-check"></i> Full insurance coverage</li>
+                <li><i class="fa-solid fa-circle-check"></i> 24/7 roadside assistance</li>
+              </ul>
+              <a href="contact.html" class="btn-service">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tour Packages -->
+        <div class="col-md-6 col-lg-3 reveal" style="transition-delay:.3s">
+          <div class="service-card">
+            <div class="service-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80" alt="Tour Packages" class="service-card-img">
+              <div class="service-card-icon-overlay"><i class="fa-solid fa-map-marked-alt"></i></div>
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-title">Tour Packages</div>
+              <p class="service-card-desc">All-inclusive curated tours with expert guides, hand-selected experiences, and every detail perfectly organized for you.</p>
+              <ul class="service-card-features">
+                <li><i class="fa-solid fa-circle-check"></i> 80+ curated itineraries</li>
+                <li><i class="fa-solid fa-circle-check"></i> Expert local guides</li>
+                <li><i class="fa-solid fa-circle-check"></i> All meals & transfers</li>
+                <li><i class="fa-solid fa-circle-check"></i> Custom & private tours</li>
+              </ul>
+              <a href="contact.html" class="btn-service">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cruise Packages -->
+        <div class="col-md-6 col-lg-3 reveal">
+          <div class="service-card">
+            <div class="service-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1548574505-5e239809ee19?w=600&q=80" alt="Cruise Packages" class="service-card-img">
+              <div class="service-card-icon-overlay"><i class="fa-solid fa-ship"></i></div>
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-title">Cruise Packages</div>
+              <p class="service-card-desc">Sail the world's most spectacular waterways on premium cruise lines with exclusive perks and dedicated concierge service.</p>
+              <ul class="service-card-features">
+                <li><i class="fa-solid fa-circle-check"></i> Caribbean & Mediterranean routes</li>
+                <li><i class="fa-solid fa-circle-check"></i> Luxury & expedition cruises</li>
+                <li><i class="fa-solid fa-circle-check"></i> Shore excursions included</li>
+                <li><i class="fa-solid fa-circle-check"></i> Special dining packages</li>
+              </ul>
+              <a href="contact.html" class="btn-service">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Honeymoon Packages -->
+        <div class="col-md-6 col-lg-3 reveal" style="transition-delay:.1s">
+          <div class="service-card">
+            <div class="service-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1602002418082-a4443e081dd1?w=600&q=80" alt="Honeymoon" class="service-card-img">
+              <div class="service-card-icon-overlay"><i class="fa-solid fa-heart"></i></div>
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-title">Honeymoon Packages</div>
+              <p class="service-card-desc">Romantic escapes designed for couples — private villas, candlelit dinners, and once-in-a-lifetime moments crafted with love.</p>
+              <ul class="service-card-features">
+                <li><i class="fa-solid fa-circle-check"></i> Private villa accommodation</li>
+                <li><i class="fa-solid fa-circle-check"></i> Couple spa treatments</li>
+                <li><i class="fa-solid fa-circle-check"></i> Sunset dining experiences</li>
+                <li><i class="fa-solid fa-circle-check"></i> Surprise anniversary perks</li>
+              </ul>
+              <a href="contact.html" class="btn-service">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Adventure Tours -->
+        <div class="col-md-6 col-lg-3 reveal" style="transition-delay:.2s">
+          <div class="service-card">
+            <div class="service-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80" alt="Adventure Tours" class="service-card-img">
+              <div class="service-card-icon-overlay"><i class="fa-solid fa-mountain"></i></div>
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-title">Adventure Tours</div>
+              <p class="service-card-desc">For the thrill-seekers — trekking, rafting, skydiving, and extreme expeditions with certified safety experts by your side.</p>
+              <ul class="service-card-features">
+                <li><i class="fa-solid fa-circle-check"></i> Himalayan & Alpine treks</li>
+                <li><i class="fa-solid fa-circle-check"></i> Certified adventure guides</li>
+                <li><i class="fa-solid fa-circle-check"></i> Safety equipment provided</li>
+                <li><i class="fa-solid fa-circle-check"></i> Emergency coverage included</li>
+              </ul>
+              <a href="contact.html" class="btn-service">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Travel Insurance -->
+        <div class="col-md-6 col-lg-3 reveal" style="transition-delay:.3s">
+          <div class="service-card">
+            <div class="service-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80" alt="Travel Insurance" class="service-card-img">
+              <div class="service-card-icon-overlay"><i class="fa-solid fa-shield-halved"></i></div>
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-title">Travel Insurance</div>
+              <p class="service-card-desc">Comprehensive travel protection covering medical emergencies, trip cancellation, lost luggage, and flight delays globally.</p>
+              <ul class="service-card-features">
+                <li><i class="fa-solid fa-circle-check"></i> Medical up to $5M coverage</li>
+                <li><i class="fa-solid fa-circle-check"></i> Trip cancellation protection</li>
+                <li><i class="fa-solid fa-circle-check"></i> Emergency evacuation</li>
+                <li><i class="fa-solid fa-circle-check"></i> 24/7 emergency hotline</li>
+              </ul>
+              <a href="contact.html" class="btn-service">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="process-section">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <span class="section-tag"><i class="fa-solid fa-route me-1"></i>How It Works</span>
+        <h2 class="section-title">Book Your Dream Trip in 4 Steps</h2>
+        <p class="section-subtitle">Getting started is easy. Our streamlined process takes you from idea to boarding pass in no time.</p>
+      </div>
+      <div class="row align-items-center g-0">
+        <div class="col-6 col-md-2 reveal">
+          <div class="process-step">
+            <div class="process-step-num">1</div>
+            <div class="process-step-title">Tell Us Your Dream</div>
+            <p class="process-step-desc">Share your destination wishlist, budget, and dates with our team.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-1 process-arrow d-none d-md-flex reveal"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="col-6 col-md-2 reveal" style="transition-delay:.1s">
+          <div class="process-step">
+            <div class="process-step-num">2</div>
+            <div class="process-step-title">Get Custom Plan</div>
+            <p class="process-step-desc">We craft a personalized itinerary tailored to your style and budget.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-1 process-arrow d-none d-md-flex reveal"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="col-6 col-md-2 reveal" style="transition-delay:.2s">
+          <div class="process-step">
+            <div class="process-step-num">3</div>
+            <div class="process-step-title">Confirm & Pay</div>
+            <p class="process-step-desc">Approve your plan, make a secure payment, and receive your travel docs instantly.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-1 process-arrow d-none d-md-flex reveal"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="col-6 col-md-2 reveal" style="transition-delay:.3s">
+          <div class="process-step">
+            <div class="process-step-num">4</div>
+            <div class="process-step-title">Start Exploring!</div>
+            <p class="process-step-desc">Pack your bags and go — we'll be with you every step of the journey.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5 reveal">
+        <a href="contact.html" class="btn-sky">Start Planning Now <i class="fa-solid fa-arrow-right ms-1"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING TIERS -->
+  <section>
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <span class="section-tag"><i class="fa-solid fa-tags me-1"></i>Pricing Plans</span>
+        <h2 class="section-title">Choose Your Travel Style</h2>
+        <p class="section-subtitle">Flexible packages for every budget. All plans include 24/7 support and our satisfaction guarantee.</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <!-- Essential -->
+        <div class="col-md-4 reveal">
+          <div style="border: 2px solid var(--gray-100); border-radius: var(--radius); padding: 2.5rem; height: 100%; transition: all 0.35s; text-align: center;" onmouseover="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 12px 40px rgba(14,165,233,0.15)'; this.style.borderColor='var(--sky-light)'" onmouseout="this.style.transform=''; this.style.boxShadow=''; this.style.borderColor='var(--gray-100)'">
+            <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">🌿</div>
+            <div style="font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; color: var(--navy); margin-bottom: 0.3rem;">Essential</div>
+            <div style="font-size: 0.8rem; color: var(--gray-500); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1.2rem;">Budget-Friendly</div>
+            <div style="font-family: var(--font-display); font-size: 2.8rem; font-weight: 700; color: var(--sky); line-height: 1;">$599<span style="font-size: 1rem; font-weight: 400; color: var(--gray-500);">/person</span></div>
+            <div style="font-size: 0.78rem; color: var(--gray-500); margin-bottom: 1.5rem;">Starting price, 7-day trip</div>
+            <ul style="list-style: none; padding: 0; text-align: left; margin-bottom: 2rem;">
+              <li style="padding: 0.45rem 0; font-size: 0.88rem; color: var(--gray-700); display: flex; align-items: center; gap: 0.6rem; border-bottom: 1px solid var(--gray-100);"><i class="fa-solid fa-check text-sky"></i>Economy flights</li>
+              <li style="padding: 0.45rem 0; font-size: 0.88rem; color: var(--gray-700); display: flex; align-items: center; gap: 0.6rem; border-bottom: 1px solid var(--gray-100);"><i class="fa-solid fa-check text-sky"></i>3-star hotel</li>
+              <li style="padding: 0.45rem 0; font-size: 0.88rem; color: var(--gray-700); display: flex; align-items: center; gap: 0.6rem; border-bottom: 1px solid var(--gray-100);"><i class="fa-solid fa-check text-sky"></i>Group tours</li>
+              <li style="padding: 0.45rem 0; font-size: 0.88rem; color: var(--gray-500); display: flex; align-items: center; gap: 0.6rem;"><i class="fa-solid fa-times" style="color: var(--gray-300);"></i>Airport transfers</li>
+            </ul>
+            <a href="contact.html" class="btn-service w-100 justify-content-center">Get Started</a>
+          </div>
+        </div>
+        <!-- Premium - Featured -->
+        <div class="col-md-4 reveal" style="transition-delay:.1s">
+          <div style="background: linear-gradient(135deg, var(--navy) 0%, var(--navy-soft) 100%); border-radius: var(--radius); padding: 2.5rem; height: 100%; text-align: center; position: relative; transform: translateY(-6px); box-shadow: 0 16px 48px rgba(12,35,64,0.25);">
+            <div style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--gold); color: var(--navy); font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.12em; padding: 0.3rem 1rem; border-radius: 50px;">Most Popular</div>
+            <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">✈️</div>
+            <div style="font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; color: white; margin-bottom: 0.3rem;">Premium</div>
+            <div style="font-size: 0.8rem; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1.2rem;">Most Popular</div>
+            <div style="font-family: var(--font-display); font-size: 2.8rem; font-weight: 700; color: var(--sky); line-height: 1;">$1,199<span style="font-size: 1rem; font-weight: 400; color: rgba(255,255,255,0.5);">/person</span></div>
+            <div style="font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-bottom: 1.5rem;">Starting price, 10-day trip</div>
+            <ul style="list-style: none; padding: 0; text-align: left; margin-bottom: 2rem;">
+              <li style="padding: 0.45rem 0; font-size: 0.88rem; color: rgba(255,255,255,0.85); display: flex; align-items: center; gap: 0.6rem; border-bottom: 1px solid rgba(255,255,255,0.1);"><i class="fa-solid fa-check" style="color: var(--sky);"></i>Business class option</li>
+              <li style="padding: 0.45rem 0; font-size: 0.88rem; color: rgba(255,255,255,0.85); display: flex; align-items: center; gap: 0.6rem; border-bottom: 1px solid rgba(255,255,255,0.1);"><i class="fa-solid fa-check" style="color: var(--sky);"></i>4-star boutique hotel</li>
+              <li style="padding: 0.45rem 0; font-size: 0.88rem; color: rgba(255,255,255,0.85); display: flex; align-items: center; gap: 0.6rem; border-bottom: 1px solid rgba(255,255,255,0.1);"><i class="fa-solid fa-check" style="color: var(--sky);"></i>Private guided tours</li>
+              <li style="padding: 0.45rem 0; font-size: 0.88rem; color: rgba(255,255,255,0.85); display: flex; align-items: center; gap: 0.6rem;"><i class="fa-solid fa-check" style="color: var(--sky);"></i>All transfers included</li>
+            </ul>
+            <a href="contact.html" class="btn-sky w-100 justify-content-center">Choose Premium</a>
+          </div>
+        </div>
+        <!-- Luxury -->
+        <div class="col-md-4 reveal" style="transition-delay:.2s">
+          <div style="border: 2px solid var(--gray-100); border-radius: var(--radius); padding: 2.5rem; height: 100%; transition: all 0.35s; text-align: center;" onmouseover="this.style.transform='translateY(-6px)'; this.style.boxShadow='0 12px 40px rgba(14,165,233,0.15)'; this.style.borderColor='var(--sky-light)'" onmouseout="this.style.transform=''; this.style.boxShadow=''; this.style.borderColor='var(--gray-100)'">
+            <div style="font-size: 1.8rem; margin-bottom: 0.5rem;">👑</div>
+            <div style="font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; color: var(--navy); margin-bottom: 0.3rem;">Luxury</div>
+            <div style="font-size: 0.8rem; color: var(--gray-500); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1.2rem;">Ultimate Experience</div>
+            <div style="font-family: var(--font-display); font-size: 2.8rem; font-weight: 700; color: var(--sky); line-height: 1;">$2,999<span style="font-size: 1rem; font-weight: 400; color: var(--gray-500);">/person</span></div>
+            <div style="font-size: 0.78rem; color: var(--gray-500); margin-bottom: 1.5rem;">Starting price, 14-day trip</div>
+            <ul style="list-style: none; padding: 0; text-align: left; margin-bottom: 2rem;">
+              <li style="padding: 0.45rem 0; font-size: 0.88rem; color: var(--gray-700); display: flex; align-items: center; gap: 0.6rem; border-bottom: 1px solid var(--gray-100);"><i class="fa-solid fa-check text-sky"></i>First class flights</li>
+              <li style="padding: 0.45rem 0; font-size: 0.88rem; color: var(--gray-700); display: flex; align-items: center; gap: 0.6rem; border-bottom: 1px solid var(--gray-100);"><i class="fa-solid fa-check text-sky"></i>5-star resorts & villas</li>
+              <li style="padding: 0.45rem 0; font-size: 0.88rem; color: var(--gray-700); display: flex; align-items: center; gap: 0.6rem; border-bottom: 1px solid var(--gray-100);"><i class="fa-solid fa-check text-sky"></i>Personal concierge 24/7</li>
+              <li style="padding: 0.45rem 0; font-size: 0.88rem; color: var(--gray-700); display: flex; align-items: center; gap: 0.6rem;"><i class="fa-solid fa-check text-sky"></i>All-inclusive dining</li>
+            </ul>
+            <a href="contact.html" class="btn-service w-100 justify-content-center">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+          <a href="index.html" class="footer-brand">Wander<span>lust</span></a>
+          <p class="footer-about">Your trusted travel partner since 2009. We've helped over 50,000 travelers explore 120+ destinations with personalized service and unforgettable experiences.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <div class="footer-title">Quick Links</div>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-chevron-right fa-xs"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-chevron-right fa-xs"></i> About Us</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right fa-xs"></i> Services</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-chevron-right fa-xs"></i> Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <div class="footer-title">Services</div>
+          <ul class="footer-links">
+            <li><a href="#"><i class="fa-solid fa-chevron-right fa-xs"></i> Flight Booking</a></li>
+            <li><a href="#"><i class="fa-solid fa-chevron-right fa-xs"></i> Hotels</a></li>
+            <li><a href="#"><i class="fa-solid fa-chevron-right fa-xs"></i> Car Rentals</a></li>
+            <li><a href="#"><i class="fa-solid fa-chevron-right fa-xs"></i> Tour Packages</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-title">Contact Us</div>
+          <div class="footer-contact-item"><i class="fa-solid fa-location-dot"></i><span>1204 Traveler's Lane, Suite 500<br>New York, NY 10001, USA</span></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-phone"></i><span>+1 (800) 555-1234</span></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-envelope"></i><span>hello@wanderlust.travel</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer-bottom">
+        <span>&copy; 2024 Wanderlust Travel Agency. All rights reserved.</span>
+        <span><a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms of Service</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top" id="backToTop"><i class="fa-solid fa-arrow-up"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.1 });
+    reveals.forEach(r => observer.observe(r));
+    const btn = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => btn.classList.toggle('show', window.scrollY > 400));
+    btn.addEventListener('click', e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+  </script>
+</body>
+</html>
