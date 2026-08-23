@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wanderlust Travel — Explore the World with Us</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <link rel="stylesheet" href="css/traval.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        Wander<span>lust</span><span class="brand-dot"></span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fa-solid fa-house me-1 opacity-50"></i>Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link btn-nav" href="contact.html">Book a Trip</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+
+    <!-- Floating Cards -->
+    <div class="hero-float-card card-2">
+      <div class="float-icon bg-gold"><i class="fa-solid fa-star"></i></div>
+      <div class="float-text">
+        <div class="title">4.9 / 5 Rating</div>
+        <div class="sub">Over 8,000 Reviews</div>
+      </div>
+    </div>
+
+    <div class="hero-float-card card-1">
+      <div class="float-icon bg-sky"><i class="fa-solid fa-plane-departure"></i></div>
+      <div class="float-text">
+        <div class="title">Next Departure</div>
+        <div class="sub">Bali, Indonesia — 3 seats left!</div>
+      </div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-xl-5">
+          <div class="hero-badge">
+            <i class="fa-solid fa-compass"></i>
+            Award-Winning Travel Agency
+          </div>
+          <h1 class="hero-title">
+            Explore the<br><em>World</em> with Us
+          </h1>
+          <p class="hero-desc">
+            Unforgettable journeys crafted just for you. From tropical escapes to mountain adventures — your dream destination is just one click away.
+          </p>
+          <div class="hero-buttons">
+            <a href="services.html" class="btn-hero-primary">
+              <i class="fa-solid fa-compass"></i> Explore Packages
+            </a>
+            <a href="about.html" class="btn-hero-outline">
+              <i class="fa-solid fa-play-circle"></i> Our Story
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <span class="number">50K+</span>
+              <div class="label">Happy Travelers</div>
+            </div>
+            <div class="hero-stat">
+              <span class="number">120+</span>
+              <div class="label">Destinations</div>
+            </div>
+            <div class="hero-stat">
+              <span class="number">15+</span>
+              <div class="label">Years Experience</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 offset-lg-1 col-xl-5 offset-xl-2 mt-5 mt-lg-0">
+          <div class="hero-search-wrap">
+            <div class="hero-search-card">
+              <h5 style="color:white; font-family: var(--font-display); font-size:1.2rem; margin-bottom:1.2rem;">
+                <i class="fa-solid fa-magnifying-glass me-2 text-sky"></i>Find Your Destination
+              </h5>
+              <div class="row g-3">
+                <div class="col-12">
+                  <label>Where to?</label>
+                  <input type="text" class="form-control" placeholder="e.g. Paris, Bali, Maldives...">
+                </div>
+                <div class="col-6">
+                  <label>Departure</label>
+                  <input type="date" class="form-control">
+                </div>
+                <div class="col-6">
+                  <label>Return</label>
+                  <input type="date" class="form-control">
+                </div>
+                <div class="col-6">
+                  <label>Travelers</label>
+                  <select class="form-select">
+                    <option>1 Adult</option>
+                    <option>2 Adults</option>
+                    <option>2 Adults + 1 Child</option>
+                    <option>Family (4+)</option>
+                  </select>
+                </div>
+                <div class="col-6">
+                  <label>Trip Type</label>
+                  <select class="form-select">
+                    <option>Any Type</option>
+                    <option>Adventure</option>
+                    <option>Beach & Relax</option>
+                    <option>Cultural Tour</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-search">
+                    <i class="fa-solid fa-magnifying-glass me-2"></i>Search Trips
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED DESTINATIONS ===== -->
+  <section class="destinations-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag"><i class="fa-solid fa-location-dot me-1"></i>Popular Destinations</span>
+        <h2 class="section-title">Where Do You Want to Go?</h2>
+        <p class="section-subtitle">Handpicked destinations with extraordinary experiences, exceptional service, and memories that last a lifetime.</p>
+      </div>
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-3 reveal">
+          <div class="dest-card">
+            <div class="dest-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600&q=80" alt="Bali, Indonesia">
+              <span class="dest-card-badge">Bestseller</span>
+              <span class="dest-card-price">From $899</span>
+            </div>
+            <div class="dest-card-body">
+              <div class="dest-card-location"><i class="fa-solid fa-location-dot"></i> Bali, Indonesia</div>
+              <div class="dest-card-title">Bali Paradise Escape</div>
+              <p class="dest-card-desc">Lush rice terraces, vibrant temples, world-class beaches, and a unique spiritual culture await.</p>
+            </div>
+            <div class="dest-card-footer">
+              <div class="dest-card-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span>4.9 (312)</span>
+              </div>
+              <a href="services.html" class="btn-dest">Book Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-3 reveal" style="transition-delay:.1s">
+          <div class="dest-card">
+            <div class="dest-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=600&q=80" alt="Paris, France">
+              <span class="dest-card-badge">Romantic</span>
+              <span class="dest-card-price">From $1,249</span>
+            </div>
+            <div class="dest-card-body">
+              <div class="dest-card-location"><i class="fa-solid fa-location-dot"></i> Paris, France</div>
+              <div class="dest-card-title">City of Light & Love</div>
+              <p class="dest-card-desc">The Eiffel Tower, Louvre masterpieces, and world-renowned cuisine in the most romantic city on earth.</p>
+            </div>
+            <div class="dest-card-footer">
+              <div class="dest-card-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                <span>4.7 (428)</span>
+              </div>
+              <a href="services.html" class="btn-dest">Book Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-3 reveal" style="transition-delay:.2s">
+          <div class="dest-card">
+            <div class="dest-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=600&q=80" alt="Santorini, Greece">
+              <span class="dest-card-badge">Trending</span>
+              <span class="dest-card-price">From $1,599</span>
+            </div>
+            <div class="dest-card-body">
+              <div class="dest-card-location"><i class="fa-solid fa-location-dot"></i> Santorini, Greece</div>
+              <div class="dest-card-title">Santorini Sunsets</div>
+              <p class="dest-card-desc">Iconic blue-domed churches, volcanic beaches, and legendary sunsets over the Aegean Sea.</p>
+            </div>
+            <div class="dest-card-footer">
+              <div class="dest-card-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span>4.9 (257)</span>
+              </div>
+              <a href="services.html" class="btn-dest">Book Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-md-6 col-lg-3 reveal" style="transition-delay:.3s">
+          <div class="dest-card">
+            <div class="dest-card-img-wrap">
+              <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&q=80" alt="Maldives">
+              <span class="dest-card-badge">Luxury</span>
+              <span class="dest-card-price">From $2,199</span>
+            </div>
+            <div class="dest-card-body">
+              <div class="dest-card-location"><i class="fa-solid fa-location-dot"></i> Maldives</div>
+              <div class="dest-card-title">Maldives Overwater Villas</div>
+              <p class="dest-card-desc">Crystal lagoons, overwater bungalows, and pristine coral reefs in the ultimate luxury escape.</p>
+            </div>
+            <div class="dest-card-footer">
+              <div class="dest-card-rating">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span>5.0 (189)</span>
+              </div>
+              <a href="services.html" class="btn-dest">Book Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <a href="services.html" class="btn-sky">View All Destinations <i class="fa-solid fa-arrow-right ms-1"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="why-us">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 reveal">
+          <span class="section-tag"><i class="fa-solid fa-trophy me-1"></i>Why Wanderlust</span>
+          <h2 class="section-title text-white">Travel Smarter, Not Harder</h2>
+          <p class="section-subtitle text-white opacity-75">We handle every detail so you can focus on making memories. Our expert team has 15+ years of crafting perfect journeys.</p>
+          <a href="about.html" class="btn-sky mt-4">Learn About Us <i class="fa-solid fa-arrow-right ms-1"></i></a>
+        </div>
+        <div class="col-lg-7">
+          <div class="row g-3">
+            <div class="col-sm-6 reveal">
+              <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="feature-title">100% Safe & Secure</div>
+                <p class="feature-desc">Your safety is our top priority. Every destination vetted, every hotel inspected, every tour certified.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 reveal" style="transition-delay:.1s">
+              <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-headset"></i></div>
+                <div class="feature-title">24/7 Expert Support</div>
+                <p class="feature-desc">Our travel specialists are available around the clock to help you wherever you are in the world.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 reveal" style="transition-delay:.2s">
+              <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-tags"></i></div>
+                <div class="feature-title">Best Price Guarantee</div>
+                <p class="feature-desc">Find a lower price and we'll match it — no questions asked. Your dream trip, at the best possible value.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 reveal" style="transition-delay:.3s">
+              <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-star"></i></div>
+                <div class="feature-title">Personalized Journeys</div>
+                <p class="feature-desc">Every trip is custom-designed around your preferences, budget, and travel style. No cookie-cutter tours here.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <span class="section-tag"><i class="fa-solid fa-comments me-1"></i>Testimonials</span>
+        <h2 class="section-title">What Our Travelers Say</h2>
+        <p class="section-subtitle">Real stories from real adventurers who chose Wanderlust to craft their perfect escape.</p>
+      </div>
+
+      <div id="testimonialCarousel" class="carousel slide reveal" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="testimonial-card">
+                  <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                  <p class="testimonial-text">The Bali trip was beyond anything I imagined. From the private villa to the sunrise temple tour — every single detail was perfect. Wanderlust truly delivered magic.</p>
+                  <div class="testimonial-author">
+                    <img src="https://i.pravatar.cc/100?img=47" alt="Sarah K." class="author-avatar">
+                    <div>
+                      <div class="author-name">Sarah K.</div>
+                      <div class="author-trip"><i class="fa-solid fa-plane me-1"></i>Bali Honeymoon Package</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-none d-md-block">
+                <div class="testimonial-card">
+                  <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                  <p class="testimonial-text">Santorini was everything the photos promised and more. Our guide was extraordinary. I've used 5 travel agencies in my life and Wanderlust is in a different league.</p>
+                  <div class="testimonial-author">
+                    <img src="https://i.pravatar.cc/100?img=32" alt="Michael T." class="author-avatar">
+                    <div>
+                      <div class="author-name">Michael T.</div>
+                      <div class="author-trip"><i class="fa-solid fa-plane me-1"></i>Greece Island Tour</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-none d-md-block">
+                <div class="testimonial-card">
+                  <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+                  <p class="testimonial-text">Booked the Maldives overwater villa package and it was seamless from start to finish. The 24/7 support team saved our trip when a connection was delayed. Incredible team!</p>
+                  <div class="testimonial-author">
+                    <img src="https://i.pravatar.cc/100?img=12" alt="Priya M." class="author-avatar">
+                    <div>
+                      <div class="author-name">Priya M.</div>
+                      <div class="author-trip"><i class="fa-solid fa-plane me-1"></i>Maldives Luxury Escape</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="testimonial-card">
+                  <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                  <p class="testimonial-text">Our family tour of Japan was flawlessly organized. The kids loved the bullet trains and temples. Everything was age-appropriate and paced perfectly. We're already planning our return!</p>
+                  <div class="testimonial-author">
+                    <img src="https://i.pravatar.cc/100?img=55" alt="James L." class="author-avatar">
+                    <div>
+                      <div class="author-name">James L.</div>
+                      <div class="author-trip"><i class="fa-solid fa-plane me-1"></i>Japan Family Adventure</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-none d-md-block">
+                <div class="testimonial-card">
+                  <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                  <p class="testimonial-text">The Paris romantic package was absolutely enchanting. The private Seine river dinner, the Versailles tour — Wanderlust made our anniversary absolutely unforgettable.</p>
+                  <div class="testimonial-author">
+                    <img src="https://i.pravatar.cc/100?img=20" alt="Elena V." class="author-avatar">
+                    <div>
+                      <div class="author-name">Elena V.</div>
+                      <div class="author-trip"><i class="fa-solid fa-plane me-1"></i>Paris Anniversary Trip</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-none d-md-block">
+                <div class="testimonial-card">
+                  <div class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                  <p class="testimonial-text">Wanderlust's car rental service made our New Zealand road trip absolutely stress-free. The vehicle was pristine, the maps pre-loaded, and the emergency line answered instantly.</p>
+                  <div class="testimonial-author">
+                    <img src="https://i.pravatar.cc/100?img=35" alt="Tom H." class="author-avatar">
+                    <div>
+                      <div class="author-name">Tom H.</div>
+                      <div class="author-trip"><i class="fa-solid fa-car me-1"></i>NZ Road Trip</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-indicators mt-4" style="position:relative; top:auto; bottom:auto;">
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CALL TO ACTION ===== -->
+  <section style="background: linear-gradient(135deg, var(--sky) 0%, var(--sky-dark) 100%); padding: 4rem 0;">
+    <div class="container text-center reveal">
+      <h2 style="font-family: var(--font-display); color: white; font-size: clamp(1.8rem, 4vw, 3rem); margin-bottom: 1rem;">Ready for Your Next Adventure?</h2>
+      <p style="color: rgba(255,255,255,0.82); max-width: 560px; margin: 0 auto 2rem; font-size: 1.05rem;">
+        Talk to our travel experts today and get a personalized itinerary designed just for you — completely free.
+      </p>
+      <div class="d-flex justify-content-center gap-3 flex-wrap">
+        <a href="contact.html" style="background: white; color: var(--sky-dark); border: none; padding: 0.9rem 2.2rem; border-radius: 50px; font-weight: 700; font-size: 0.95rem; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; transition: all 0.3s; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+          <i class="fa-solid fa-paper-plane"></i> Get Free Quote
+        </a>
+        <a href="tel:+18005551234" style="background: transparent; color: white; border: 2px solid rgba(255,255,255,0.6); padding: 0.9rem 2.2rem; border-radius: 50px; font-weight: 700; font-size: 0.95rem; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;">
+          <i class="fa-solid fa-phone"></i> Call Us Now
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+          <a href="index.html" class="footer-brand">Wander<span>lust</span></a>
+          <p class="footer-about">Your trusted travel partner since 2009. We've helped over 50,000 travelers explore 120+ destinations with personalized service and unforgettable experiences.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <div class="footer-title">Quick Links</div>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-chevron-right fa-xs"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-chevron-right fa-xs"></i> About Us</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right fa-xs"></i> Services</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-chevron-right fa-xs"></i> Contact</a></li>
+            <li><a href="#"><i class="fa-solid fa-chevron-right fa-xs"></i> Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <div class="footer-title">Top Destinations</div>
+          <ul class="footer-links">
+            <li><a href="#"><i class="fa-solid fa-chevron-right fa-xs"></i> Bali, Indonesia</a></li>
+            <li><a href="#"><i class="fa-solid fa-chevron-right fa-xs"></i> Paris, France</a></li>
+            <li><a href="#"><i class="fa-solid fa-chevron-right fa-xs"></i> Santorini, Greece</a></li>
+            <li><a href="#"><i class="fa-solid fa-chevron-right fa-xs"></i> Maldives</a></li>
+            <li><a href="#"><i class="fa-solid fa-chevron-right fa-xs"></i> Tokyo, Japan</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-title">Contact Us</div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>1204 Traveler's Lane, Suite 500<br>New York, NY 10001, USA</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>+1 (800) 555-1234<br>Mon–Fri, 9am–8pm EST</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>hello@wanderlust.travel<br>bookings@wanderlust.travel</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer-bottom">
+        <span>&copy; 2024 Wanderlust Travel Agency. All rights reserved.</span>
+        <span><a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms of Service</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <a href="#" class="back-to-top" id="backToTop"><i class="fa-solid fa-arrow-up"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    reveals.forEach(r => observer.observe(r));
+
+    // Back to top
+    const btn = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => btn.classList.toggle('show', window.scrollY > 400));
+    btn.addEventListener('click', e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+  </script>
+</body>
+</html>
