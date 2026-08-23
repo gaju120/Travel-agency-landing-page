@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — Wanderlust Travel Agency</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✈️</text></svg>">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ <link rel="stylesheet" href="css/traval.css">
+
+ </head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Wander<span>lust</span><span class="brand-dot"></span></a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link btn-nav" href="contact.html">Book a Trip</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero text-center">
+    <div class="container">
+      <p class="page-hero-breadcrumb"><a href="index.html">Home</a><span>›</span>Contact</p>
+      <h1 class="page-hero-title">Get In Touch</h1>
+      <p style="color:rgba(255,255,255,0.65); max-width:500px; margin: 0.7rem auto 0; font-size:1rem;">Your next adventure starts with a conversation. We're here and ready to help.</p>
+    </div>
+  </div>
+
+  <!-- CONTACT MAIN -->
+  <section>
+    <div class="container">
+      <div class="row g-4 align-items-stretch">
+        <!-- Info Column -->
+        <div class="col-lg-4 reveal">
+          <div class="contact-info-card">
+            <span class="section-tag"><i class="fa-solid fa-message me-1"></i>Contact Info</span>
+            <h3>Let's Start Planning<br>Your Adventure</h3>
+            <p>Reach out to our friendly travel specialists. We typically respond within 2 hours during business hours.</p>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <div class="contact-detail-title">Our Office</div>
+                <div class="contact-detail-value">1204 Traveler's Lane, Suite 500<br>New York, NY 10001, USA</div>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-detail-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <div class="contact-detail-title">Call Us</div>
+                <div class="contact-detail-value">+1 (800) 555-1234<br><span style="font-size:0.8rem; opacity:0.7;">Mon–Fri, 9am–8pm EST</span></div>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-detail-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <div class="contact-detail-title">Email Us</div>
+                <div class="contact-detail-value">hello@wanderlust.travel<br>bookings@wanderlust.travel</div>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-detail-icon"><i class="fa-solid fa-clock"></i></div>
+              <div>
+                <div class="contact-detail-title">Working Hours</div>
+                <div class="contact-detail-value">Mon–Fri: 9am – 8pm<br>Sat–Sun: 10am – 5pm</div>
+              </div>
+            </div>
+
+            <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem; margin-top: 1rem;">
+              <div style="font-size: 0.8rem; color: rgba(255,255,255,0.5); margin-bottom: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em;">Follow Us</div>
+              <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Column -->
+        <div class="col-lg-8 reveal" style="transition-delay:.15s">
+          <div class="contact-form-card">
+            <h3 style="font-family: var(--font-display); color: var(--navy); font-size: 1.6rem; margin-bottom: 0.4rem;">Send Us a Message</h3>
+            <p style="color: var(--gray-500); font-size: 0.9rem; margin-bottom: 2rem;">Fill in the form below and a travel specialist will contact you within 24 hours.</p>
+
+            <form id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">First Name <span class="text-sky">*</span></label>
+                  <input type="text" class="form-control" placeholder="Enter your first name" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Last Name <span class="text-sky">*</span></label>
+                  <input type="text" class="form-control" placeholder="Enter your last name" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Email Address <span class="text-sky">*</span></label>
+                  <input type="email" class="form-control" placeholder="your@email.com" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" placeholder="+1 (555) 000-0000">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Destination <span class="text-sky">*</span></label>
+                  <select class="form-select" required>
+                    <option value="" disabled selected>Select a destination</option>
+                    <option>Bali, Indonesia</option>
+                    <option>Paris, France</option>
+                    <option>Santorini, Greece</option>
+                    <option>Maldives</option>
+                    <option>Tokyo, Japan</option>
+                    <option>New Zealand</option>
+                    <option>Safari, Kenya</option>
+                    <option>Other / Not Sure Yet</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Travel Type</label>
+                  <select class="form-select">
+                    <option value="" disabled selected>Select trip type</option>
+                    <option>Honeymoon / Romantic</option>
+                    <option>Family Vacation</option>
+                    <option>Adventure / Trekking</option>
+                    <option>Beach Relaxation</option>
+                    <option>Cultural Tour</option>
+                    <option>Business Travel</option>
+                    <option>Group Tour</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Travel Date</label>
+                  <input type="date" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Budget (per person)</label>
+                  <select class="form-select">
+                    <option value="" disabled selected>Select budget range</option>
+                    <option>Under $500</option>
+                    <option>$500 – $1,000</option>
+                    <option>$1,000 – $2,000</option>
+                    <option>$2,000 – $5,000</option>
+                    <option>$5,000+</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Your Message</label>
+                  <textarea class="form-control" rows="5" placeholder="Tell us about your dream trip — where you'd like to go, what experiences you're hoping for, any special requirements or questions you have..."></textarea>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="newsletter">
+                    <label class="form-check-label" for="newsletter" style="font-size: 0.85rem; color: var(--gray-500);">
+                      I'd like to receive exclusive travel deals and inspiration emails from Wanderlust.
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn-submit">
+                    <i class="fa-solid fa-paper-plane"></i> Send My Enquiry
+                  </button>
+                </div>
+              </div>
+            </form>
+
+            <!-- Success Message (hidden by default) -->
+            <div id="successMsg" style="display:none; background: #ecfdf5; border: 1px solid #bbf7d0; border-radius: 12px; padding: 1.5rem; margin-top: 1.5rem; text-align: center;">
+              <div style="font-size: 2rem; margin-bottom: 0.5rem;">✅</div>
+              <h5 style="color: #15803d; font-family: var(--font-display); margin-bottom: 0.4rem;">Message Sent Successfully!</h5>
+              <p style="color: #16a34a; font-size: 0.9rem; margin: 0;">Thank you! A travel specialist will contact you within 24 hours to discuss your dream trip.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section style="background: var(--sky-pale);">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <span class="section-tag"><i class="fa-solid fa-circle-question me-1"></i>FAQ</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Quick answers to the questions we get asked most often.</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 reveal">
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item border-0 mb-3 rounded-3 overflow-hidden" style="box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" style="font-weight: 600; color: var(--navy); font-size: 0.95rem;">
+                  How far in advance should I book my trip?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body" style="color: var(--gray-500); font-size: 0.9rem; line-height: 1.8;">
+                  We recommend booking at least 3–6 months in advance for peak season travel (June–August and December–January). For last-minute trips, we often have access to special deals — contact us and we'll see what we can do!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-0 mb-3 rounded-3 overflow-hidden" style="box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" style="font-weight: 600; color: var(--navy); font-size: 0.95rem;">
+                  Are your prices all-inclusive?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body" style="color: var(--gray-500); font-size: 0.9rem; line-height: 1.8;">
+                  It depends on the package you choose. Our Premium and Luxury packages include flights, hotels, transfers, and guided tours. Essential packages cover accommodation and core activities. We'll always clearly outline what's included before you pay — no hidden surprises.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-0 mb-3 rounded-3 overflow-hidden" style="box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" style="font-weight: 600; color: var(--navy); font-size: 0.95rem;">
+                  What is your cancellation policy?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body" style="color: var(--gray-500); font-size: 0.9rem; line-height: 1.8;">
+                  Cancellations made 60+ days before departure receive a full refund minus a small processing fee. Between 30–60 days: 50% refund. Under 30 days: non-refundable. We also offer optional travel insurance that covers unexpected cancellations due to medical emergencies.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-0 mb-3 rounded-3 overflow-hidden" style="box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" style="font-weight: 600; color: var(--navy); font-size: 0.95rem;">
+                  Do you offer group discounts?
+                </button>
+              </h2>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body" style="color: var(--gray-500); font-size: 0.9rem; line-height: 1.8;">
+                  Yes! Groups of 6 or more receive automatic discounts ranging from 10–20% depending on package and season. For corporate groups and incentive travel, we offer fully custom enterprise packages. Contact our groups team for a tailored quote.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-0 rounded-3 overflow-hidden" style="box-shadow: 0 2px 12px rgba(0,0,0,0.06);">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" style="font-weight: 600; color: var(--navy); font-size: 0.95rem;">
+                  Do I need a visa? Can you help?
+                </button>
+              </h2>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body" style="color: var(--gray-500); font-size: 0.9rem; line-height: 1.8;">
+                  Visa requirements vary by passport and destination. Our travel specialists will provide you with a complete visa requirements checklist and guide you through the application process. For most popular destinations, we handle the paperwork entirely on your behalf.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section style="padding: 0;">
+    <div class="container py-5">
+      <div class="section-header text-center reveal mb-4">
+        <span class="section-tag"><i class="fa-solid fa-map-location-dot me-1"></i>Find Us</span>
+        <h2 class="section-title">Visit Our Office</h2>
+      </div>
+      <div class="map-wrap reveal">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215573291865!2d-73.98752!3d40.74844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b30eac9f%3A0xaca05ca48ab5c93!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1699000000000!5m2!1sen!2sus"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+          <a href="index.html" class="footer-brand">Wander<span>lust</span></a>
+          <p class="footer-about">Your trusted travel partner since 2009. We've helped over 50,000 travelers explore 120+ destinations with personalized service and unforgettable experiences.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <div class="footer-title">Quick Links</div>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-chevron-right fa-xs"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-chevron-right fa-xs"></i> About Us</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right fa-xs"></i> Services</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-chevron-right fa-xs"></i> Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-6">
+          <div class="footer-title">Services</div>
+          <ul class="footer-links">
+            <li><a href="#"><i class="fa-solid fa-chevron-right fa-xs"></i> Flight Booking</a></li>
+            <li><a href="#"><i class="fa-solid fa-chevron-right fa-xs"></i> Hotels</a></li>
+            <li><a href="#"><i class="fa-solid fa-chevron-right fa-xs"></i> Car Rentals</a></li>
+            <li><a href="#"><i class="fa-solid fa-chevron-right fa-xs"></i> Tour Packages</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-title">Contact Us</div>
+          <div class="footer-contact-item"><i class="fa-solid fa-location-dot"></i><span>1204 Traveler's Lane, Suite 500<br>New York, NY 10001, USA</span></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-phone"></i><span>+1 (800) 555-1234</span></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-envelope"></i><span>hello@wanderlust.travel</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer-bottom">
+        <span>&copy; 2024 Wanderlust Travel Agency. All rights reserved.</span>
+        <span><a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms of Service</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top" id="backToTop"><i class="fa-solid fa-arrow-up"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.1 });
+    reveals.forEach(r => observer.observe(r));
+
+    const btn = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => btn.classList.toggle('show', window.scrollY > 400));
+    btn.addEventListener('click', e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+    // Form submit handler
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('successMsg').style.display = 'block';
+      this.style.opacity = '0.4';
+      this.style.pointerEvents = 'none';
+      document.getElementById('successMsg').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  </script>
+</body>
+</html>
